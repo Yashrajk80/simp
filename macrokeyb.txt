@@ -1,0 +1,6 @@
+#on main terminal 
+xhost +SI:localuser:$(whoami)
+xhost +local:
+
+
+ WEBKIT_DISABLE_DMABUF_RENDERER=1 sudo -E ./macrokeyb_0.1.0_amd64.AppImage
